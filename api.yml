@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: hello-world:v2
+          image: hello-world:v1
           ports:
             - containerPort: 80
           readinessProbe:
@@ -29,7 +29,7 @@ spec:
               path: /
               port: 80
             periodSeconds: 3
-            initialDelaySeconds: 5
+            initialDelaySeconds: 10
             failureThreshold: 2
             successThreshold: 3
 ---
