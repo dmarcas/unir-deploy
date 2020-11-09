@@ -1,4 +1,4 @@
-# Repo para EIEC - Máster DevOps - UNIR
+# Repo para EIEC - DevOps - UNIR
 
 Este repositorio incluye un ejemplo sencillo de despliegue en Kubernetes. El objetivo es que el alumno entienda el concepto de despliegue incremental, por lo que el código del proyecto es especialmente sencillo.
 
